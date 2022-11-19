@@ -1,0 +1,18 @@
+body{
+    background-color: #201b2c;
+}
+.navbar{
+    background-color:#2F2841;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.nav-item > a{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+.dropdown-menu{
+    background-color: #2F2841;
+}
+.dropdown-item{
+    color: #00ff88;
+}
