@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="Style.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+<body>
 <nav class="navbar navbar-expand-sm fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -42,11 +43,34 @@
         </div>
     </div>
 </nav>
-<body>
-    <div class = "ini">
-
-    </div>
-    
-
+<div class = "painel">
+        <form class="p_lanca" action="gravar.php" method="POST">
+            <h1>Cadastro Compromisso</h1>
+          <div class="form-group">
+            <label for="inputAddress">Descrição</label>
+            <input type="text" class="form-control" id="ncompromisso" placeholder="" required>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Endereço</label>
+            <input type="text" class="form-control" id="endereco" placeholder="Rua aracaju, nº 0" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="inputCity">Cidade</label>
+              <input type="text" class="form-control" id="cidade" required>
+            </div>
+          </div>
+          <div class ="form-group">
+            <label for="data">Data</label>
+              <input type="date" class="form-control" id="data" required>
+          </div>
+          <div class ="form-group">
+            <label for="hora">Hora</label>
+              <input type="time" class="form-control" id="hora" required>
+          </div>
+          <button type="submit" class="salvar">Salvar</button>
+        </form>
+      </div>
+</div>
 </body>
 </html>
